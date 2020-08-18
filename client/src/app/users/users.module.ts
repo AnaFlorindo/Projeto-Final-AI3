@@ -11,12 +11,12 @@ import { MatListModule } from '@angular/material/list';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
-import { UserCreateComponent } from './user-create/user-create.component';
+import { UserCreateComponent } from './registar_user/registaruser';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { UserEditComponent } from './user-edit/user-edit.component';
 import { UserFilterComponent } from './user-filter/user-filter.component';
 import { UserListComponent } from './user-list/user-list.component';
-import { UserManagementComponent } from './user-management/user-management.component';
+import { LoginComponent } from './LoginComponent/Login_Component';
 import { UserViewComponent } from './user-view/user-view.component';
 import { UsersRoutingModule } from './users-routing.module';
 
@@ -38,7 +38,7 @@ const MATERIAL_MODULES = [
     UserViewComponent,
     UserEditComponent,
     UserFilterComponent,
-    UserManagementComponent,
+    LoginComponent,
     UserDetailsComponent,
     UserCreateComponent
   ],

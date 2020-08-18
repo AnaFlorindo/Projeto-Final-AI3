@@ -1,4 +1,4 @@
-import { UserService } from 'src/app/services/user.service';
+/*import { UserService } from 'src/app/services/user.service';
 
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
@@ -24,7 +24,7 @@ export class UserCreateComponent implements OnInit {
    * @param formBuilder Form builder
    * @param userService User service
    * @param snackBar Snack bar
-   */
+  
   constructor(
     private router: Router,
     private formBuilder: FormBuilder,
@@ -59,3 +59,4 @@ export class UserCreateComponent implements OnInit {
   }
 
 }
+*/

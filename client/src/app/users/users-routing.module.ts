@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { UserCreateComponent } from './user-create/user-create.component';
+//import { UserCreateComponent } from './registar_user/registaruser';
 import { UserEditComponent } from './user-edit/user-edit.component';
-import { UserManagementComponent } from './user-management/user-management.component';
+import { LoginComponent } from './LoginComponent/Login_Component';
 import { UserViewComponent } from './user-view/user-view.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: UserManagementComponent,
+    component: LoginComponent,
   },
   {
-    path: 'create',
-    component: UserCreateComponent,
+  //  path: 'registar',
+    //component: UserCreateComponent,
   },
   {
     path: ':id',
